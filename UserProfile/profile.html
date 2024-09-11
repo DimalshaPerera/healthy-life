@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Info</title>
+    <link rel="stylesheet" href="../profile.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="body">
+    <header>
+      <div class="menu-bar">
+        <nav class="navbar">
+          <a href="index.html"><img src="../images/logo.gif" class="logo" /></a>
+          <ul>
+            <li><a id="home" href="../Home.html">Home</a></li>
+            <li><a id="abtUs" href="../TeamPage/team.html">About us</a></li>
+            <li><a id="issues" href="../ContentPage/content.html">Blog</a></li>
+            <li><a id="pfp" href="../gallery.html">Gallery</a></li>
+            <li><a id="comment" href="../feedback.html">Feedback</a></li>
+            <li><a id="info" href="../UserProfile/profile.html">Sign in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="start-container" id="st-con">
+      <h1 class="topic">Let's start to bulid Our User Profile!!!</h1>
+      <button type="button" id="start">Start</button>
+    </div>
+
+    <!-- Input field for user response -->
+
+    <div class="container" id="con">
+      <img src="Mental-Health.png" alt="" />
+      <div id="prompt"></div>
+      <div class="prompt">
+        <input type="text" id="userResponse" class="input_box" />
+        <button id="previousButton" onclick="previousQuestion()">
+          Previous
+        </button>
+        <button id="skipButton" onclick="skipFunc()">Skip</button>
+        <button id="submitButton" onclick="submitResponse()">Submit</button>
+      </div>
+    </div>
+
+    <!-- Container for displaying user information collection -->
+    <div class="container" id="userCollectionContainer">
+      <h2>User Information Collection</h2>
+      <div id="pro-bar" class="pro-bar"></div>
+      <div id="progress">Progress: <span id="progressValue">0%</span></div>
+      <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+      <div class="footer">
+        <div class="icon">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="footernav">
+          <ul>
+            <li><a href="../PageEditor/PageEditor.html" target="_blank">Page editor</a></li>
+            <li><a href="../TeamPage/team.html">Team </a></li>
+            <li><a id="map" href="../sitemap.html">Site map</a></li>
+            <li><a id="map" href="../shop.html">Shop </a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p class="homeP">
+            Copyrights &copy;2024 designed by<span class="designer">
+              WellB</span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

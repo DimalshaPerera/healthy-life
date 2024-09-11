@@ -1,0 +1,345 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins";
+	font-weight: 600;
+	font-style: normal;
+}
+.fa {
+	position: relative;
+	margin: 10px;
+	top: 10px;
+}
+body{
+	width: 100%;
+}
+h1 {
+	font-family: "Poppins";
+	font-weight: 400;
+	font-style: normal;
+}
+#background-video{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;
+    z-index: -1;
+}
+/* navbar styling */
+.menu-bar{                     
+	position: sticky;
+	top: 0;
+	left: 0%;
+	width: 100%;
+	height: 8rem;
+	padding: 20px 100px;
+	background: #14452F;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+.upper{
+    font-size: medium;
+}
+.menu-bar ul{
+	list-style: none;
+	display: flex;
+	position: relative;
+}
+.menu-bar ul li{
+	padding: 10px 30px;
+	position: relative;
+	bottom: 35px;
+	left: 100px;
+}
+.menu-bar ul li a{
+	color: blanchedalmond;
+	text-decoration: none;
+	font-size: 20px;
+
+	transition: all 0.3s;
+}
+.menu-bar ul li a:hover{
+	color: #fff;
+}
+.navbar{
+	list-style: none;
+	padding: 0%;
+	margin: 0%;
+}
+
+.logo{
+	position: relative;
+	right: 50px;
+	top: 20px;
+	width: 8rem;
+	display: inline;
+}
+.navbar a:hover::after{
+	transform: scaleX(1);
+	transform-origin: left;
+
+}
+/*Footer styling*/
+footer{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 0.4s;
+	font-family: "Poppins";
+	background: #004d25;
+	height: 200px;
+	position: relative;
+	width: 100%;
+	bottom: 0px;
+}
+.footer{
+	position: relative;
+	bottom: 0;
+	box-sizing: border-box;
+	font-size: 1em;
+	text-align: center;
+	padding: 20px 30px ;
+}
+.footer{
+	font-weight: 600;
+}
+.icon{
+	display: flex;
+	justify-content: center;
+}
+.icon a{
+	text-decoration: none;
+	padding: 10px;
+	background: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+.fa {
+	color: aliceblue;
+	z-index: 99;
+}
+.footernav{
+	margin: 30px 0;
+	position: relative;
+}
+.footernav ul{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 30px;
+	list-style-type: none;
+}
+.footernav ul li a{
+	color: #fff;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5s;
+	position: relative;
+	right: 20px;
+}
+.footernav ul li a:hover{
+	opacity: 1;
+
+}
+@media (max-width: 768px) {
+	.icon {
+	  flex-wrap: wrap;
+	}
+  
+	.icon a {
+	  margin: 5px;
+	}
+  }
+/*Footer styling*/
+footer{
+	box-sizing: border-box;
+	margin: 0;
+	
+	padding: 0;
+	transition: all 0.4s;
+	font-family: "Poppins";
+	background: #004d25;
+	height: 200px;
+	position: relative;
+	width: 100%;
+	left: 0;
+	bottom: 0px;
+}
+.footer{
+	position: relative;
+	bottom: 0;
+	box-sizing: border-box;
+	font-size: 1em;
+	text-align: center;
+	padding: 20px 30px ;
+}
+.footer{
+	font-weight: 600;
+}
+.icon{
+	display: flex;
+	justify-content: center;
+}
+.icon a{
+	text-decoration: none;
+	padding: 10px;
+	background: white;
+	margin: 10px;
+	border-radius: 50%;
+}
+.footernav{
+	margin: 30px 0;
+	position: relative;
+
+}
+.footernav ul{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 30px;
+
+}
+.footernav ul li a{
+	color: #fff;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	opacity: 0.7;
+	transition: 0.5s;
+	position: relative;
+	right: 20px;
+}
+.footernav ul li a:hover{
+	opacity: 1;
+}
+@media (max-width: 768px) {
+	.icon {
+	  flex-wrap: wrap;
+	}
+  
+	.icon a {
+	  margin: 5px;
+	}
+  }
+
+
+
+
+/*styling the feedback list*/
+.container{
+	position: relative;
+    top: 50px;
+    left: 27%;
+    max-width: 45%;
+    padding:5px 35px ;
+    margin-bottom: 170px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.container .title{
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    color: #004d25;
+}
+.details{
+    font-size: 1.2rem;
+    display: block;
+}
+.questions{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-align: justify;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: medium;
+}
+.details .text-box{
+    margin-top: 10px;
+}
+.details .text-box input{
+    margin-top: 10px;
+    height: 50px;
+    width:100% ;
+    border-radius: 5px;
+    border:1px solid #00bb22;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0s ease;
+    border-color: #006425;
+}
+.radio-inline {
+    float: left;
+    padding: 0 1em;
+    text-align: center;
+}
+/* Error Handling */
+
+.red{
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: medium;
+    color: #ff0000;
+    display: none;
+}
+.radio-btn label{
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: medium;
+}
+.details .text-box input:focus{
+    border:none;
+}
+.button{
+    height: 45px;
+    margin: 45px 0;
+}
+.radio-btn .experience{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+}
+.button input   {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background:linear-gradient(135deg, #00c832, #006c0d) ;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+.button input:hover{
+    background: linear-gradient(-135deg, #01ac15,#03eb3d) ;
+}
+.radio-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.small-container{
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+.text-box label{
+    margin-top: 35px;
+}
+#send-btn{
+	background-color: #00c832;
+}

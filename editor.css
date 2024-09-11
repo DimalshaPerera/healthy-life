@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #f0f0f0;
+  background-image: url("Images/woa.jpg");
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat;
+  background-position: center;
+  user-select: none;
+}
+#goBackButton {
+  position: fixed;
+  top: 5%;
+  left: 1%;
+  z-index: 9999;
+  padding: 15px 30px; 
+  background-color: #d3d3d3;
+  color: #808080;
+  border: 1px #f0f0f0;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 15px; /* Make it round */
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .description-box-1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; /* Add some margin for spacing */
+  }
+
+  .thumbnail-container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.photo {
+  border-radius: 5vw;
+  border: 0.2vw solid whitesmoke;
+  height: 30vh;
+  margin-top: 1%;
+  margin-left: 19%;
+  width: 100%;
+  max-width: 17vw;
+  height: auto;
+}
+.content {
+  display: flex;
+  margin-top: 11vh;
+  border: 2px solid whitesmoke;
+  padding: 0 2vw 2vw 0;
+  align-items: flex-start;
+  background-color: #1a1a1a;
+
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  margin-left: 10%;
+  font-size: 0.8rem;
+}
+.description-box-1,
+.description-box-2,
+.description-box-3 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding: 0 2vw 2vw 0;
+  border: 1px solid whitesmoke;
+  background-color: #1a1a1a;
+}
+
+.description {
+  margin-left: 2%;
+}
+.thumbnail {
+  width: 25vw;
+  border-left: 4px solid #f0f0f0; /* Left border */
+  border-right: 4px solid #f0f0f0; /* Right border */
+  border-top: 4px solid #f0f0f0; /* Top border */
+  border-bottom: 1px solid #f0f0f0;
+}
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25vw;
+}
+
+.thumbnail-text {
+  background-color: #f0f0f0;
+  text-align: center;
+  color: white;
+  padding: 0.92vw 1.67vw 0.17vw 0.33vw;
+  width: 94%;
+  cursor: pointer;
+  margin-top: -10px;
+}

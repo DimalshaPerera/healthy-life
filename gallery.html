@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="gallery.css" >
+    <!-- importing font awesome for icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    >
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+
+    <title>Gallery</title>
+  </head>
+  <body>
+    <!-- Header section  provided by Student 2 -->
+    <header>
+      <div class="menu-bar">
+        <nav class="navbar">
+          <a href="index.html"
+            ><img src="Images/logo.gif" class="logo" alt="logo"
+          ></a>
+          <ul>
+            <li><a id="home" href="Home.html">Home</a></li>
+            <li><a id="abtUs" href="TeamPage/team.html">About us</a></li>
+            <li><a id="issues" href="content4.html">Blog</a></li>
+            <li><a id="pfp" href="gallery.html">Gallery</a></li> 
+            <li><a id="comment" href="feedback.html">Feedback</a></li>
+            <li><a id="info" href="UserProfile/profile.html">Sign in</a></li> 
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="video-container">
+      <video autoplay loop muted>
+        <source src="Images/wine.mp4" type="video/mp4" >
+        Your browser does not support the video tag.
+      </video>
+      <div class="text-overlay">GALLERY</div>
+    </div>
+
+    <div class="section-1">
+      
+      <div class="picture-1-text">
+        <h1>Good health and well-being</h1>
+        <br>
+        Welcome to our health and wellness gallery presented by WellB. Explore
+        images of colorful, nutritious foods and fun outdoor activities that
+        showcase the essence of well-being. Each picture highlights the
+        happiness and energy that result from leading a balanced, healthy
+        lifestyle. Dive into our gallery and let these images inspire you to
+        prioritize your health and well-being in every aspect of your life.
+        <br>
+        <button
+          class="explore-button"
+          onclick="window.location.href='#container'"
+        >
+          Explore
+        </button>
+      </div>
+      <div class="picture-1">
+        
+        <img src="Images/brooke.jpg" alt="Healthy Food" >
+      </div>
+    </div>
+    <div class="container" id="container">
+      <!-- Left arrow -->
+      <div id="left">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div class="img-container">
+        <div
+          class="text-wrapper"
+          id="carousel-image-1"
+          onclick="popupImage(this.id)"
+        >
+          <img
+            src="Images/healthy_food.jpg"
+            alt=" a healthy sandwitch"
+            draggable="false"
+            class="image"
+          >
+          <div class="img_title">NutriVision</div>
+          <div class="img_thumb">Click to Explore more</div>
+          <p class="img_description">
+            Discover Nutrivision: vibrant, nutritious avocado toast topped with
+            a sunny-side-up egg. A delicious, wholesome treat for your body and
+            soul. More healthy inspirations await in our gallery!
+          </p>
+        </div>
+
+        <div
+          class="text-wrapper"
+          id="carousel-image-2"
+          onclick="popupImage(this.id)"
+        >
+          <img
+            src="Images/gym_essentials.jpg"
+            alt="dumbells"
+            draggable="false"
+            class="image"
+          >
+          <div class="img_title">Fitness Gear Essentials:</div>
+          <div class="img_thumb">Click to Explore more</div>
+          <p class="img_description">
+            Fitness Gear Essentials: Discover the power of these dumbbells in
+            enhancing your fitness routine. Whether you're toning muscles or
+            building strength, these versatile tools are a must-have for any
+            workout. Get ready to elevate your fitness game with these essential
+            gear!
+          </p>
+        </div>
+        <div
+          class="text-wrapper"
+          id="carousel-image-3"
+          onclick="popupImage(this.id)"
+        >
+          <img
+            src="Images/cycle.jpg"
+            alt="biking"
+            draggable="false"
+            class="image"
+          >
+          <div class="img_title">Active Outdoor Living</div>
+          <div class="img_thumb">Click to Explore more</div>
+          <p class="img_description">
+            Active Outdoor Living: Experience the thrill of cycling with our
+            captivating image. This picture embodies the freedom and joy of
+            biking, inspiring you to embrace an active outdoor lifestyle. Get
+            ready to hit the trails and discover the beauty of outdoor
+            adventures!
+          </p>
+        </div>
+        <div
+          class="text-wrapper"
+          id="carousel-image-4"
+          onclick="popupImage(this.id)"
+        >
+          <img
+            src="Images/meditation.jpg"
+            alt="meditation"
+            draggable="false"
+            class="image"
+          >
+          <div class="img_title">ChillZone</div>
+          <div class="img_thumb">Click to Explore more</div>
+          <p class="img_description">
+            ChillZone: Take a deep breath and immerse yourself in the calming
+            practice of meditation, a powerful tool for nurturing your mental
+            health. This peaceful image encourages you to unwind and destress
+          </p>
+        </div>
+        <div
+          class="text-wrapper"
+          id="carousel-image-5"
+          onclick="popupImage(this.id)"
+        >
+          <img
+            src="Images/snack.jpg"
+            alt="various nuts"
+            draggable="false"
+            class="image"
+          >
+          <div class="img_title">Smart Snacking</div>
+          <div class="img_thumb">Click to Explore more</div>
+          <p class="img_description">
+            Smart Snacking: Treat yourself to a range of delicious and
+            nutritious nuts with our image. From crunchy almonds to creamy
+            cashews, this picture presents a selection of smart and satisfying
+            options for your healthy snacking pleasure.
+          </p>
+        </div>
+
+        <div
+          class="text-wrapper"
+          id="carousel-image-6"
+          onclick="popupImage(this.id)"
+        >
+          <img
+            src="Images/events.jpg"
+            alt="yoga workshop"
+            draggable="false"
+            class="image"
+          >
+          <div class="img_title">Wellness Wave</div>
+          <div class="img_thumb">Click to Explore more</div>
+          <p class="img_description">
+            Wellness Wave: Immerse yourself in our image of a yoga workshop. Be
+            an active participant in communities that inspire mindfulness and
+            relaxation, embracing well-being and inner peace
+          </p>
+        </div>
+
+        <div
+          class="text-wrapper"
+          id="carousel-image-7"
+          onclick="popupImage(this.id)"
+        >
+          <img
+            src="Images/2.jpg"
+            alt="surgery"
+            draggable="false"
+            class="image"
+          >
+          <div class="img_title">Health Heroes</div>
+          <div class="img_thumb">Click to Explore more</div>
+          <p class="img_description">
+            Health Heroes: Celebrate the dedication of our medical
+            professionals, from doctors to nurses and healthcare workers, with
+            our image of doctors performing surgery. This picture honors their
+            commitment and bravery, highlighting them as true heroes of health
+          </p>
+        </div>
+      </div>
+      <div id="right">
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </div>
+
+    <!-- Popup image details -->
+    <div class="popup-image-veil">
+      <div class="popup-image-wrapper">
+        <img class="popup-img" id="popup-img" src="#" alt="popup-img" >
+        <div class="popup-image-right">
+          <!-- Settings panel for customization -->
+          <div class="settings-panel">
+            <label for="bg-color">Background Color:</label>
+            <input
+              type="color"
+              id="bg-color"
+              
+            >
+
+            <label for="font-color">Font Color:</label>
+            <input type="color" id="font-color" >
+
+            <label for="font-family">Font Family:</label>
+            <select id="font-family">
+              <option value="Arial, sans-serif">Arial</option>
+              <option value="Times New Roman, serif">Times New Roman</option>
+              <option value="Courier New, monospace">Courier New</option>
+            </select>
+          </div>
+          <button class="close-btn" onclick="hidePopup()">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="popup-image-desc">
+            <h2 id="popup-header">Image</h2>
+            <p id="popup-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="gallery.js" defer></script>
+    <!-- Footer section provided by Student 2 -->
+    <footer>
+      <div class="footer">
+        <div class="icon">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <div class="footernav">
+          <ul>
+            <li><a href="editor.html" target="_blank">Page editor</a></li>
+            <li><a href="TeamPage/team.html">Team </a></li>
+            <li><a id="map" href="sitemap.html">Site map</a></li>
+            <li><a id="map" href="shop.html">Shop </a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          <p class="homeP">
+            Copyrights &copy;2024 designed by<span class="designer">
+              WellB</span
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

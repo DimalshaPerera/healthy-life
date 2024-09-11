@@ -1,0 +1,110 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+}
+.checkout-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.checkout-form{
+    background-color:#333;
+
+}
+
+.basketdetails{
+
+    
+    background-color:#6ab04c;
+    color: aliceblue;
+    text-align: center;
+    
+    
+}
+.basketProducts{
+    background-color:#79b85e;
+    color: aliceblue;
+    text-align: center;
+    
+    
+
+}
+.basketTotal{
+    position: fixed;
+    top: 0;
+}
+
+.formbutton{
+    background-color: #333;
+    color: aliceblue;
+}
+.checkout-form form{
+    font-size: 20px;
+    margin: 5px;
+    padding: 15px;
+    color: #333;
+    background:#f5f5f5;
+    
+
+}
+.checkout-form fieldset{
+    border-radius: 10px;
+}
+.basketdetails img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 7px;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 0 10px 10px #757676;
+    opacity: 0.9;
+}
+
+#form input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .checkout-container{
+        min-height: 100vh;
+    }
+    .basketdetails{
+        min-width: 80px;
+    }
+}
+
+#form label{
+    padding-left: 5px;
+}
+
+
+.cards{
+    position: absolute;
+    top:10%;
+    right:28%;
+}
+.cards i{
+    margin: 5px;
+}
+
+.inputNumber::-webkit-inner-spin-button,
+.inputNumber::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}     
+

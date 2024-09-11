@@ -1,0 +1,128 @@
+
+*{
+  font-family: "Poppins";
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #e8dfaf;
+}
+
+.start-container button {
+  padding: 4px 12px;
+  background-color: rgb(9, 132, 21);
+  color: #ccc;
+  font-weight: 500;
+  border: 2px solid rgb(9, 132, 21);
+  border-radius: 35px;
+  cursor: pointer;
+  top: 230px;
+  margin: 30 auto;
+  position: relative;
+  left: 200px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Acme", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+}
+.start-container button:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+  color: rgb(9, 132, 21);
+  border: 2px solid rgb(9, 132, 21);
+}
+.container {
+  background-color: white;
+  position: relative;
+  max-width: 600px;
+  margin: 20px auto;
+  margin-top: 130px;
+  margin-bottom: 60px;
+  padding: 20px;
+  border: 3px solid #179e06;
+  border-radius: 15px;
+  top: -250px;
+  left: -20%;
+  visibility: hidden;
+}
+.prompt {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+
+  top: 50px;
+}
+.error {
+  color: red;
+}
+.pro-bar {
+  height: 10px;
+  background-color: rgba(28, 161, 214, 0.84);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  width: 0%;
+}
+
+.topic {
+  position: relative;
+  top: 175px;
+  left: 160px;
+  color: rgb(19, 19, 44);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 62px;
+}
+.input_box {
+  border: 2.5px solid #1e8709;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 20px;
+  margin-right: 25px;
+}
+#previousButton,
+#skipButton {
+  color: rgb(37, 125, 180);
+  background-color: rgba(255, 255, 255);
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: "Poppins";
+}
+#previousButton:hover,
+#skipButton:hover {
+  color: rgba(255, 255, 255);
+  background-color: rgb(37, 125, 180);
+  cursor: pointer;
+}
+
+#submitButton {
+  color: rgb(37, 125, 180);
+  background-color: rgb(248, 252, 254);
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: "Poppins";
+}
+#submitButton:hover {
+  color: rgb(248, 252, 254);
+  background-color: rgb(37, 125, 180);
+}
+.container img {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 405px;
+  height: 600px;
+
+}
+

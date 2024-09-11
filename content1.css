@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.content1Body{
+    background: linear-gradient(to bottom, #FFFFFF, #F2F2F2, #E9E9E9, #DCDCDC);
+    font-family: 'Poppins';
+    overflow-x:hidden
+
+}
+.contentHeading{
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.m1Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: #95d5b2;
+    
+    
+}
+
+.m2Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: #95d5b2;
+
+}
+
+.contentImage img{
+    height: 600px;
+    width: 600px;
+    padding: 25px;
+    
+    border-radius: 10%;
+}
+
+.contentP{
+    text-align: justify;
+    font-size: 30px;
+    padding:30px;
+
+}
+.midBreaker{
+    height: 10vh;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mainImage img{
+    width: 100%;
+    
+}
+.mainImage{
+    position: relative;
+}
+
+.imageText{
+    position: absolute;
+    bottom: 50%;
+    right:  16px;
+    font-size: 28px;
+    border-radius: 10px;
+    text-align: justify;
+    color: #333;
+    
+}
+.mainImage button{
+    position: absolute;
+    bottom: 45%;
+    right: 15%;
+    
+}
+
+.content1Body button{
+    background-color: aliceblue; 
+    border: none;
+    color: #333;
+    padding: 7px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; 
+    box-shadow: 0 5px 5px #757676;
+}
